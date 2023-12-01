@@ -1,0 +1,25 @@
+<!-- activity_reussite.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvMoyenneapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="28dp"
+        android:textColor="#FF0000"
+        android:text="Dommage! vous etes récalés !"/>
+
+    <TextView
+        android:id="@+id/tvMoyenne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Moyenne: " />
+
+
+</RelativeLayout>
